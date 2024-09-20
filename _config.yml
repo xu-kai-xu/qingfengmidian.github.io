@@ -21,7 +21,7 @@
 title: 清风米店
 email: xuk1111@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  欢迎光临清风米店！清风取自“清风略旷野，平地起波澜”，米店是我最喜欢的一首歌。
+  欢迎光临清风米店！清风取自“清风掠旷野，平地起波澜”，米店是我最喜欢的一首歌。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -31,6 +31,9 @@ github_username:  xu-kai-xu
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
