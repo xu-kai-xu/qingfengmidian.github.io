@@ -54,12 +54,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-minima:
-  home_title: "最新文章"
-  navigation:
-    - text: "首页"          # 导航栏显示的文本
-      url: "/"            # 导航链接的 URL
-    - text: "文章"          # 将 "Posts" 替换为中文 "文章"
-      url: "/_posts/"      # 指向博客文章页面的 URL
-
